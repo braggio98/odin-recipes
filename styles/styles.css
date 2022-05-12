@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: rgb(243, 234, 245);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.section {
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+
+p,
+li,
+a {
+    text-align: center;
+    margin: 20px;
+    max-width: 300px;
+    color: #0c022f;
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-weight: 300;
+    word-break: break-word;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1,
+h2,
+h3 {
+    color: #0c022f;
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-weight: 900;
+    word-break: break-word;
+}
+
+.button,
+.header {
+    background-color: rgb(156, 115, 156);
+    
+    height: 80px;
+    
+}
+
+.header {
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+button {
+    background-color: rgb(156, 115, 156);
+   border: none;
+    cursor: pointer;
+    margin: 25px;
+  
+}
+
+.btn {
+    
+    padding: 15px;
+    text-align: center;
+    color: #0c022f;
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    word-break: break-word;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+.link {
+    
+    justify-content: center;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+
+.card {
+    
+    height: fit-content;
+    padding: 0;
+    border-radius: 10px;
+}
+
